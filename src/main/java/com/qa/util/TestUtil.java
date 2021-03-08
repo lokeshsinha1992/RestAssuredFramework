@@ -21,8 +21,7 @@ public class TestUtil {
 	static Workbook book;
 	static Sheet sheet;
 	
-	public static String TESTDATA_SHEET_PATH = "/Users/NaveenKhunteta/Documents/workspace/"
-			+ "RestAPIRestAssuredFW/src/main/java/com/qa/testdata/APITestData.xlsx";
+	public static String TESTDATA_SHEET_PATH = "E:\\Office Works\\RestAssuredFramework\\src\\main\\java\\com\\qa\\testdata\\APITestData.xlsx";
 	
 //get data from excel:
 	public static Object[][] getDataFromSheet(String sheetName){
